@@ -22,6 +22,8 @@ import relaysSensor from '../assets/machines/Industrial Products & Automation Sp
 import servoMotors from '../assets/machines/Industrial Products & Automation Spares/Servo motors.webp';
 import vfdDrives from '../assets/machines/Industrial Products & Automation Spares/VFD Drives.webp';
 import pressureSensor from '../assets/machines/Industrial Products & Automation Spares/water-pressure-sensor.webp';
+import pressSpare from '../assets/machines/Industrial Products & Automation Spares/Press_spare.webp';
+import pressMachineSpare from '../assets/machines/Industrial Products & Automation Spares/press_machine-spare.webp';
 
 import './IndustrialProducts.css';
 
@@ -139,6 +141,26 @@ const PRODUCTS = [
         features: ['0.1% accuracy', 'Stainless steel housing', '4-20mA / 0-10V output', 'Hazardous area certified'],
         width: 400, height: 300,
     },
+    {
+        image: pressSpare,
+        title: 'Press Spare Parts',
+        desc: 'High-quality spare parts for industrial press machines including dies, punches, guides, and wear components for continuous production uptime.',
+        Icon: Cog, iconSize: 24,
+        tag: 'PRESS SPARES',
+        blendBg: true,
+        features: ['OEM-grade quality', 'Rapid availability', 'Wide machine compatibility', 'Extended service life'],
+        width: 400, height: 300,
+    },
+    {
+        image: pressMachineSpare,
+        title: 'Press Machine Spares',
+        desc: 'Complete range of press machine spare components — clutch assemblies, brake pads, crankshafts, and electrical parts for all press types.',
+        Icon: Cog, iconSize: 24,
+        tag: 'MACHINE SPARES',
+        blendBg: true,
+        features: ['Clutch & brake components', 'Electrical spares', 'Hydraulic parts', 'On-site support available'],
+        width: 400, height: 300,
+    },
 ];
 
 const IndustrialProducts = () => {
@@ -171,7 +193,7 @@ const IndustrialProducts = () => {
                     </motion.p>
                     <motion.div className="products-hero__stats" variants={fadeUp}>
                         <div className="products-hero__stat">
-                            <span className="products-hero__stat-value">11+</span>
+                            <span className="products-hero__stat-value">13+</span>
                             <span className="products-hero__stat-label">Product Categories</span>
                         </div>
                         <span className="products-hero__stat-divider" />
