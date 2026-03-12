@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.jayanthienterprises.com)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(npm uninstall:*)",
+      "Bash(npx vite build)",
+      "Bash(npm install:*)",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "Bash(npm run build:*)",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_close",
+      "Bash(ls:*)",
+      "Bash(find \"/g/Siru Client Projects/Mtech-Solutions/src/assets/machines/Industrial Products & Automation Spares\" -type f)",
+      "Bash(npm run dev)",
+      "Bash(npx --yes sharp-cli --version)",
+      "Bash(npx sharp-cli -i \"src/assets/machines/logos/Festo_logo.jpg\" -o \"src/assets/machines/logos/Festo_logo.webp\" --format webp)",
+      "Bash(npx sharp-cli -i \"src/assets/machines/logos/Schneider-Electric-Logo-Vector.jpg\" -o \"src/assets/machines/logos/Schneider-Electric-Logo-Vector.webp\" --format webp)",
+      "Bash(npx sharp-cli -i \"src/assets/machines/logos/nok.jpg\" -o \"src/assets/machines/logos/nok.webp\" --format webp)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5175)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5174)"
+    ]
+  }
+}

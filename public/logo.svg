@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8AD0E"/>
+      <stop offset="100%" stop-color="#C8960C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- MTECH Text -->
+  <text x="250" y="155" text-anchor="middle" font-family="'Outfit','Arial Black',sans-serif" font-size="82" font-weight="800" letter-spacing="6" fill="url(#gold)">MTECH</text>
+
+  <!-- Press Machine Illustration -->
+  <g stroke="#B0A898" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.55">
+    <!-- Main Frame / Gantry -->
+    <rect x="120" y="195" width="220" height="12" rx="2"/>
+    <!-- Left pillar -->
+    <line x1="140" y1="207" x2="140" y2="380"/>
+    <line x1="130" y1="380" x2="150" y2="380"/>
+    <!-- Right pillar -->
+    <line x1="320" y1="207" x2="320" y2="380"/>
+    <line x1="310" y1="380" x2="330" y2="380"/>
+
+    <!-- Cross beam / rail -->
+    <rect x="135" y="230" width="190" height="8" rx="1.5"/>
+
+    <!-- Spindle carriage -->
+    <rect x="210" y="228" width="40" height="16" rx="2"/>
+
+    <!-- Spindle shaft -->
+    <line x1="230" y1="244" x2="230" y2="305"/>
+    <!-- Tool tip -->
+    <polygon points="222,305 238,305 230,325" fill="url(#gold)" stroke="url(#gold)" stroke-width="1.5"/>
+
+    <!-- Workpiece / Table -->
+    <rect x="180" y="340" width="100" height="14" rx="3" fill="url(#gold)" opacity="0.2" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Base -->
+    <rect x="165" y="360" width="130" height="10" rx="2"/>
+    <rect x="185" y="370" width="90" height="18" rx="3"/>
+
+    <!-- Movement arrows - horizontal -->
+    <!-- Left arrow -->
+    <line x1="155" y1="260" x2="195" y2="260"/>
+    <polyline points="162,254 155,260 162,266"/>
+    <!-- Right arrow -->
+    <line x1="265" y1="260" x2="305" y2="260"/>
+    <polyline points="298,254 305,260 298,266"/>
+
+    <!-- Down arrow -->
+    <line x1="250" y1="265" x2="250" y2="295"/>
+    <polyline points="244,288 250,295 256,288"/>
+
+    <!-- Up arrow (left side) -->
+    <line x1="115" y1="340" x2="115" y2="300"/>
+    <polyline points="109,307 115,300 121,307"/>
+
+    <!-- Control Panel -->
+    <rect x="345" y="245" width="60" height="75" rx="5"/>
+    <!-- Screen -->
+    <rect x="352" y="253" width="46" height="28" rx="2" stroke-width="1.5"/>
+    <!-- Buttons row -->
+    <circle cx="358" cy="295" r="4"/>
+    <circle cx="372" cy="295" r="4"/>
+    <circle cx="386" cy="295" r="4"/>
+    <!-- Indicator -->
+    <rect x="355" y="306" width="20" height="5" rx="1.5"/>
+    <rect x="380" y="306" width="15" height="5" rx="1.5"/>
+
+    <!-- Cable from panel to machine -->
+    <path d="M345,290 Q335,290 335,310 Q335,380 320,380"/>
+
+    <!-- Cable from panel down -->
+    <line x1="375" y1="320" x2="375" y2="388"/>
+    <rect x="365" y="384" width="20" height="8" rx="2"/>
+  </g>
+</svg>
