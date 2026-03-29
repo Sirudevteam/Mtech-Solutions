@@ -128,7 +128,7 @@ const JSON_LD = {
         description: 'Industrial Automation Solution Provider, System Integrator, and Panel Manufacturer.',
         url: 'https://www.mtechsolutions.com',
         telephone: '+91-98765-43210',
-        email: 'info@mtechsolutions.com',
+        email: 'Mtechsolutions1993@gmail.com',
         address: {
             '@type': 'PostalAddress',
             streetAddress: 'No. 229, Gandhinagar, Thogarapalli',
@@ -716,13 +716,14 @@ const Home = () => {
                                         <div>
                                             <h4>Phone</h4>
                                             <p><a href="tel:+919876543210" style={{ color: 'inherit' }}>+91 98765 43210</a></p>
+                                            <p><a href="tel:+919943542980" style={{ color: 'inherit' }}>+91 99435 42980</a></p>
                                         </div>
                                     </div>
                                     <div className="contact__info-item">
                                         <div className="contact__info-icon"><Mail size={20} /></div>
                                         <div>
                                             <h4>Email</h4>
-                                            <p><a href="mailto:info@mtechsolutions.com" style={{ color: 'inherit' }}>info@mtechsolutions.com</a></p>
+                                            <p><a href="mailto:Mtechsolutions1993@gmail.com" style={{ color: 'inherit' }}>Mtechsolutions1993@gmail.com</a></p>
                                         </div>
                                     </div>
                                     <div className="contact__info-item">
