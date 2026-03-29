@@ -252,7 +252,7 @@ const IndustrialProducts = () => {
                                         ))}
                                     </ul>
                                     <a
-                                        href="https://wa.me/919876543210"
+                                        href="https://wa.me/919629558368"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="product-card__enquiry"
@@ -306,7 +306,7 @@ const IndustrialProducts = () => {
                             technical support. Request a quote or talk to our engineers today.
                         </motion.p>
                         <motion.div className="products-cta__actions" variants={fadeUp}>
-                            <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" className="btn btn-gold">
+                            <a href="https://wa.me/919629558368" target="_blank" rel="noreferrer" className="btn btn-gold">
                                 <MessageCircle size={16} /> Get a Quote on WhatsApp
                             </a>
                             <Link to="/" className="btn btn-ghost">

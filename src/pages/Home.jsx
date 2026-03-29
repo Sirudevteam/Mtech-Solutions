@@ -127,7 +127,7 @@ const JSON_LD = {
         name: 'Mtech Solutions',
         description: 'Industrial Automation Solution Provider, System Integrator, and Panel Manufacturer.',
         url: 'https://www.mtechsolutions.com',
-        telephone: '+91-98765-43210',
+        telephone: '+91-96295-58368',
         email: 'Mtechsolutions1993@gmail.com',
         address: {
             '@type': 'PostalAddress',
@@ -691,7 +691,7 @@ const Home = () => {
                                     </button>
                                     {submitStatus === 'error' && (
                                         <p className="contact__form-error">
-                                            Something went wrong. Please <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">WhatsApp us</a> directly.
+                                            Something went wrong. Please <a href="https://wa.me/919629558368" target="_blank" rel="noreferrer">WhatsApp us</a> directly.
                                         </p>
                                     )}
                                     {submitStatus === 'sent' && (
@@ -715,8 +715,7 @@ const Home = () => {
                                         <div className="contact__info-icon"><Phone size={20} /></div>
                                         <div>
                                             <h4>Phone</h4>
-                                            <p><a href="tel:+919876543210" style={{ color: 'inherit' }}>+91 98765 43210</a></p>
-                                            <p><a href="tel:+919943542980" style={{ color: 'inherit' }}>+91 99435 42980</a></p>
+                                            <p><a href="tel:+919629558368" style={{ color: 'inherit' }}>+91 96295 58368</a></p>
                                         </div>
                                     </div>
                                     <div className="contact__info-item">
@@ -738,7 +737,7 @@ const Home = () => {
                                 <div className="contact__whatsapp">
                                     <h4>Instant Support via WhatsApp</h4>
                                     <p>Connect with our engineering team for fast response.</p>
-                                    <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" className="btn btn-whatsapp">
+                                    <a href="https://wa.me/919629558368" target="_blank" rel="noreferrer" className="btn btn-whatsapp">
                                         <MessageCircle size={18} /> Message on WhatsApp
                                     </a>
                                 </div>
@@ -762,7 +761,7 @@ const Home = () => {
                                 <a href="#contact" className="btn btn-gold" onClick={(e) => scrollToSection(e, 'contact')}>
                                     Get Free Quote <ArrowRight size={16} />
                                 </a>
-                                <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" className="btn btn-ghost">
+                                <a href="https://wa.me/919629558368" target="_blank" rel="noreferrer" className="btn btn-ghost">
                                     <MessageCircle size={16} /> WhatsApp Us
                                 </a>
                             </motion.div>

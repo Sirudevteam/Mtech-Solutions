@@ -31,15 +31,14 @@ const Footer = () => {
                                 <Phone size={18} />
                                 <div>
                                     <span className="contact-label">Phone</span>
-                                    <a href="tel:+919876543210">+91 98765 43210</a>
-                                    <a href="tel:+919943542980">+91 99435 42980</a>
+                                    <a href="tel:+919629558368">+91 96295 58368</a>
                                 </div>
                             </li>
                             <li className="footer-contact-item">
                                 <MessageSquare size={18} />
                                 <div>
                                     <span className="contact-label">WhatsApp</span>
-                                    <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">+91 98765 43210</a>
+                                    <a href="https://wa.me/919629558368" target="_blank" rel="noreferrer">+91 96295 58368</a>
                                 </div>
                             </li>
                             <li className="footer-contact-item">
