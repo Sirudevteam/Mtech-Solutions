@@ -89,7 +89,7 @@ const Footer = () => {
                 <div className="footer-bottom">
                     {/* Fix #10 — CURRENT_YEAR computed once at module level */}
                     <p>&copy; {CURRENT_YEAR} Mtech Solutions. All Rights Reserved.</p>
-                    <p className="footer-credit">Designed by <a href="https://siruailabs.pages.dev/" target="_blank" rel="noreferrer">Siru AI Labs</a></p>
+                    <p className="footer-credit">Designed by <a href="https://www.siruailabs.com/" target="_blank" rel="noreferrer">Siru AI Labs</a></p>
                 </div>
             </div>
         </footer>
